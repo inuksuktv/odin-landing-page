@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.left {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.right {
+    align-self: center;
+    display: flex;
+    gap: 12px;
+}
+
+a {
+    text-decoration-line: none;
+    color: #e5e7eb;
+}
+
+.content {
+    display: flex;
+}
+

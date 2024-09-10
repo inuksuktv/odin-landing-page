@@ -21,14 +21,13 @@ header {
 .right {
     align-self: center;
     display: flex;
-    gap: 12px;
+    gap: 2em;
     font-size: 18px;
 }
 
 .content {
     display: flex;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding: 100px 200px;
 }
 
 .one {
@@ -37,14 +36,12 @@ header {
     display: flex;
     align-content: center;
     align-items: center;
-    font-size: 48px;
-    padding-bottom: 100px;
-    padding-top: 100px;
 }
 
 .hero {
     display: flex;
     flex-direction: column;
+    font-size: 48px;
     font-weight: 900;
     gap: 4px;
     padding-right: 50px;
@@ -55,6 +52,22 @@ header {
     font-size: 18px;
     font-weight: 400;
     color: #e5e7eb;
+}
+
+.two {
+    padding-top: 20px;
+    padding-bottom: 100px;
+    flex-direction: column;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
 }
 
 button {

@@ -5,9 +5,9 @@ body {
 }
 
 header {
+    background-color: #1f2937;
     display: flex;
     justify-content: space-between;
-    background-color: #1f2937;
     padding-left: 200px;
     padding-right: 200px;
 }
@@ -15,8 +15,8 @@ header {
 footer {
     background-color: #1f2937;
     color: #e5e7eb;
-    text-align: center;
     padding: 30px 200px;
+    text-align: center;
 }
 
 .left {
@@ -38,26 +38,26 @@ footer {
 }
 
 .one {
+    align-items: center;
     background-color: #1f2937;
     color: #f9faf8;
     max-height: 800px;
-    align-items: center;
 }
 
 .hero-text {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     font-size: 48px;
     font-weight: 900;
     gap: 12px;
+    justify-content: center;
     padding-right: 50px;
 }
 
 .subtitle {
+    color: #e5e7eb;
     font-size: 18px;
     font-weight: 400;
-    color: #e5e7eb;
 }
 
 .one button {
@@ -65,24 +65,24 @@ footer {
 }
 
 .hero-image {
-    width: 50%;
     flex: 1 1 auto;
     max-width: 100%;
     max-height: 100%;
+    width: 50%;
 }
 
 .two {
+    flex-direction: column;
     padding: 20px 200px;
     padding-bottom: 100px;
-    flex-direction: column;
 }
 
 .card-container {
-    padding: 0px 100px;
-    justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
+    justify-content: space-between;
+    padding: 0px 100px;
 }
 
 .card {
@@ -98,8 +98,8 @@ footer {
 }
 
 .three {
-    color: #1f2937;
     background-color: #e5e7eb;
+    color: #1f2937;
     flex-direction: column;
     font-size: 36px;
     font-style: italic;
@@ -115,12 +115,12 @@ footer {
 }
 
 .four {
-    margin: 100px 200px;
-    padding: 50px 100px;
+    align-items: center;
     background-color:#3882f6;
     color:#e5e7eb;
     justify-content: space-between;
-    align-items: center;
+    margin: 100px 200px;
+    padding: 50px 100px;
 }
 
 
@@ -128,16 +128,16 @@ button {
     background-color: #3882f6;
     border-color: #e5e7eb;
     border-radius: 5px;
-    width: 100px;
-    height: 30px;
     color: #e5e7eb;
     font-weight: 600;
     flex-shrink: 0;
+    height: 30px;
+    width: 100px;
 }
 
 a {
-    text-decoration-line: none;
     color: #e5e7eb;
+    text-decoration-line: none;
 }
 
 h2 {

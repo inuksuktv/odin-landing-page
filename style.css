@@ -41,11 +41,14 @@ footer {
     align-items: center;
     background-color: #1f2937;
     color: #f9faf8;
-    max-height: 800px;
+    flex-direction: row;
+    justify-content: space-between;
+    max-height: 600px;
 }
 
 .hero-text {
     display: flex;
+    flex: 1 1 50%;
     flex-direction: column;
     font-size: 48px;
     font-weight: 900;
@@ -65,10 +68,15 @@ footer {
 }
 
 .hero-image {
-    flex: 1 1 auto;
-    max-width: 100%;
-    max-height: 100%;
-    width: 50%;
+    flex: 1 1 50%;
+    height: auto;
+    min-width: 330px;
+}
+
+.hero-image img {
+    flex: 1 1 50%;
+    width: 100%;
+    height: auto;
 }
 
 .two {
